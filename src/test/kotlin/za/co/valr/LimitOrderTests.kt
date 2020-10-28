@@ -36,6 +36,7 @@ class LimitOrderTests {
 
         orderbook.setOrderBook(orders)
         orderbook.addOrder(OrderRecord(OrderDirection.BID, CurrencyPair.BTCZAR, OrderType.LIMIT, 10.0, 10.0, now, OrderStatus.PENDING))
+        //Best assertion ever :grin
         Assert.assertTrue(true)
     }
 
